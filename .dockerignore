@@ -1,0 +1,24 @@
+# Ignore the virtual environment (This is what caused your error)
+.venv/
+venv/
+env/
+
+# Ignore local weights (unless you want them baked into the image)
+*.pt
+*.onnx
+
+# Ignore data and results (we will mount these later)
+data/
+results/
+*.jpg
+*.png
+
+# Ignore IDE settings and Git
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
