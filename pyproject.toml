@@ -4,15 +4,12 @@ version = "0.1.0"
 description = "Drone object detection for urban environments."
 authors = [{name = "Marc Nunez", email = "marcnunezubach@gmail.com"}]
 license = {text = "Apache-2.0"}
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
     "opencv-python",
     "numpy",
     "ultralytics",
     "supervision",
-    "torch==2.8.0",
-    "torchvision==0.23.0",
-    "mpmath>=1.3.0",
 ]
 [project.urls]
 Homepage = "https://github.com/marcnunez/drone-city-detector"
